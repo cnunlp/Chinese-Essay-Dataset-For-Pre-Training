@@ -5,7 +5,7 @@ A Chinese essay dataset for AES pre-training
 The dataset is released with this paper:
 
     @inproceedings{song-etal-2020-multi,
-        title      = "Multi-Stage Pre-training for Automated {C}hinese Essay Scoring",
+        title      = "Multi-Stage Pre-training for Automated Chinese Essay Scoring",
         author     = "Song, Wei  and Zhang, Kai  and Fu, Ruiji  and Liu, Lizhen  and Liu, Ting  and Cheng, Miaomiao",
         booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
         month = nov,
