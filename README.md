@@ -35,11 +35,11 @@ The Genres of We represent organization quality with three grades.
    
 &ensp;&ensp; **1** The essay is not well written.
    
-&ensp;&ensp; **2** The essay is well written.
+&ensp;&ensp; **2** The essay is moderate
    
-&ensp;&ensp; **3** The essay is very well written.
+&ensp;&ensp; **3** The essay is well written.
    
-&ensp;&ensp; **4** The essay is excellent written.
+&ensp;&ensp; **4** The essay is excellently written.
    
 For pre-training of AES, we combine rating 4 and 3 to represent good essays, view rating 1 as poor essays, and remove rating 2 to ensure that the good and poor essays could be distinguished.
 
