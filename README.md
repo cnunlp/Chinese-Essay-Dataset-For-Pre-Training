@@ -53,7 +53,7 @@ Grades 7 to 9 are junior high school students, and grades 10 to 12 are high scho
     ./pretrain_essays.tar.bz2 
 It's a compressed package of student essays. Use the following command to unzip the file.
      
-    tar -jxvf pretrain_essays.tar.bz2 /your unzipped directory
+    tar -jxvf pretrain_essays.tar.bz2 /your_unzipped_directory
     
 It includes all student essays, and essays are formated by json. One line is one essay.
 The description of keys of json data in pretrain_essays.json, as follows:
