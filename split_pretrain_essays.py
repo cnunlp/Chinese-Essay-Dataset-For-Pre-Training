@@ -7,6 +7,7 @@ RANDOM_SEED = 1995
 random.seed(RANDOM_SEED)
 
 def condition_verify(essay):
+    # filter 2 points essay
     verify = True
     
     if essay["rating"] == 1:
@@ -15,11 +16,13 @@ def condition_verify(essay):
     return verify
 
 def merge_good(score):
+    # Combine 3 points and 4 points essays into excellent essays
     if score == 2 or score == 3:
         score = 1
     return score
 
 def save_essay(essay, file_name):
+    # save essay to file
     if not os.path.exists(file_name):    
         with open(file_name, "w", encoding='utf-8') as f:
             json.dump(essay,f,ensure_ascii=False)
@@ -30,7 +33,7 @@ def save_essay(essay, file_name):
             f.write("\n")
 
 def data_split_and_save(essays_content,essays_score,essays_category,essays_grade):
-    
+    # split train、valid、test data
     train_e, develop_e, train_s, develop_s = train_test_split(essays_content, essays_score, test_size=0.20, random_state=RANDOM_SEED)
     train_c, develop_c, train_ss, develop_ss = train_test_split(essays_category, essays_score, test_size=0.20, random_state=RANDOM_SEED)
     train_g, develop_g, train_sss, develop_sss = train_test_split(essays_grade, essays_score, test_size=0.20, random_state=RANDOM_SEED)
@@ -45,7 +48,7 @@ def data_split_and_save(essays_content,essays_score,essays_category,essays_grade
             "rating": s,
             "category": c,
             "grade": g}
-        save_essay(essay, "train_"+str(RANDOM_SEED)+".json")
+        save_essay(essay, "train.json")
         
     for e,c,g,s in zip(valid_e,valid_c,valid_g,valid_s):
         essay = {
@@ -53,7 +56,7 @@ def data_split_and_save(essays_content,essays_score,essays_category,essays_grade
             "rating": s,
             "category": c,
             "grade": g}
-        save_essay(essay, "valid_"+str(RANDOM_SEED)+".json")
+        save_essay(essay, "valid.json")
         
     for e,c,g,s in zip(test_e,test_c,test_g,test_s):
         essay = {
@@ -61,10 +64,12 @@ def data_split_and_save(essays_content,essays_score,essays_category,essays_grade
             "rating": s,
             "category": c,
             "grade": g}
-        save_essay(essay, "test_"+str(RANDOM_SEED)+".json")
-    print(len(train_e),len(valid_e),len(test_e))
+        save_essay(essay, "test.json")
+    print("train num: {}.  valid num: {}.  test num: {}.  ".format(len(train_e),len(valid_e),len(test_e)))
 
 def get_pretrain_essays(file_name):
+    # read pre-train essays from file
+
     essays_content = []
     essays_score = []
     essays_category = []
@@ -81,6 +86,8 @@ def get_pretrain_essays(file_name):
                 essays_category.append(essay["category"])
                 essays_grade.append(essay["grade"])
             essay_json = f.readline()
+    
+    # do some statistics
     print("作文总数：", len(essays_grade))
     
     sents_num = 0
