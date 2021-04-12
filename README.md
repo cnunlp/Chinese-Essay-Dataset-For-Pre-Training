@@ -1,5 +1,5 @@
 # A Chinese-Essay-Dataset-For-Automated Essay Scoring
-This is a Chinese essay dataset for Automated Essay Scoring (AES) pre-training, which was used in the paper "Multi-Stage Pre-training for Automated Chinese Essay Scoring".
+This is a Chinese essay dataset for Automated Essay Scoring (AES) pre-training, which was used in the paper "Multi-Stage Pre-training for Automated Chinese Essay Scoring, EMNLP 2020".
 Due to some reasons, we can not release the test datasets in this paper. Hope the dataset for pre-training is still helpful.
 
 ## The Dataset
