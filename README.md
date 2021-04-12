@@ -1,11 +1,12 @@
-# Chinese-Essay-Dataset-For-Pre-Training
-A Chinese essay dataset for AES pre-training
+# A Chinese-Essay-Dataset-For-Automated Essay Scoring
+This is a Chinese essay dataset for Automated Essay Scoring (AES) pre-training, which was used in the paper "Multi-Stage Pre-training for Automated Chinese Essay Scoring".
+Due to some reasons, we can not release the test datasets in this paper. Hope the dataset for pre-training is still helpful.
 
-## Introduction
+## The Dataset
 We built a **Chinese student essay dataset** for Pre-training of Automated Essay Scoring.
-
-## Dataset
+The essays were crawled from a Chinese Website www.leleketang.com.
 The essays were written by Chinese students in grade 7 to12. The corpus covers diverse topics and multiple genres.
+
 ### Basic Statistics
 
 | Basic Statistics | Number |
@@ -41,6 +42,7 @@ The Genres of We represent organization quality with three grades.
 &ensp;&ensp; **4** The essay is excellent written.
    
 For pre-training of AES, we combine rating 4 and 3 to represent good essays, view rating 1 as poor essays, and remove rating 2 to ensure that the good and poor essays could be distinguished.
+
 
 ### Grade of the essay
 Grades 7 to 9 are junior high school students, and grades 10 to 12 are high school students.
