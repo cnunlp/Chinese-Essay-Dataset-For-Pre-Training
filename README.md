@@ -17,13 +17,14 @@ The essays were written by Chinese students in grade 7 to12. The corpus covers d
 
 ### Genre of the essay
 The Genres of We represent organization quality with three grades.
-　　**Character** Character refers to a style of describing personality.
 
-　　**Narrative** Narrative is a style of writing whose main content is the experience of characters and the development and changes of things.
-
-　　**Scenery** An essay describing a scene.
-
-   **Objects** Objects refer to articles that mainly describe objects
+   **Character** Character refers to a style of describing personality.
+   
+   **Narrative** Narrative is a style of writing whose main content is the experience of characters and the development and changes of things.
+ 　
+   **Scenery** An essay describing a scene.
+   
+   **Objects** Objects refer to articles that mainly describe objects.
    
    **Argumentative** Argumentative essay is a style of analysing things, discussing affair, expressing opinions, and proposing opinions.
    
