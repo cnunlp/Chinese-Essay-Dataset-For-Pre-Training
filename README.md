@@ -43,6 +43,7 @@ The Genres of We represent organization quality with three grades.
    
 For pre-training of AES, we combine rating 4 and 3 to represent good essays, view rating 1 as poor essays, and remove rating 2 to ensure that the good and poor essays could be distinguished.
 
+Notice that we are not sure whether these ratings are from experts.
 
 ### Grade of the essay
 Grades 7 to 9 are junior high school students, and grades 10 to 12 are high school students.
