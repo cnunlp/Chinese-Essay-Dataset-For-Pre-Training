@@ -18,32 +18,32 @@ The essays were written by Chinese students in grade 7 to12. The corpus covers d
 ### Genre of the essay
 The Genres of We represent organization quality with three grades.
 
-   **Character** Character refers to a style of describing personality.
+&ensp;&ensp; **Character** Character refers to a style of describing personality.
    
    
-   **Narrative** Narrative is a style of writing whose main content is the experience of characters and the development and changes of things.
+&ensp;&ensp; **Narrative** Narrative is a style of writing whose main content is the experience of characters and the development and changes of things.
  　
   
-   **Scenery** An essay describing a scene.
+&ensp;&ensp; **Scenery** An essay describing a scene.
   
   
-   **Objects** Objects refer to articles that mainly describe objects.
+&ensp;&ensp; **Objects** Objects refer to articles that mainly describe objects.
   
   
-   **Argumentative** Argumentative essay is a style of analysing things, discussing affair, expressing opinions, and proposing opinions.
+&ensp;&ensp; **Argumentative** Argumentative essay is a style of analysing things, discussing affair, expressing opinions, and proposing opinions.
   
   
-   **Prose** Prose is a narrative literary genre that expresses the author’s true feelings and flexible writing methods.
+&ensp;&ensp; **Prose** Prose is a narrative literary genre that expresses the author’s true feelings and flexible writing methods.
  
 ### Rating of the essay
    
-   **1** The essay is not well written.
+&ensp;&ensp; **1** The essay is not well written.
    
-   **2** The essay is well written.
+&ensp;&ensp; **2** The essay is well written.
    
-   **3** The essay is very well written.
+&ensp;&ensp; **3** The essay is very well written.
    
-   **4** The essay is excellent written.
+&ensp;&ensp; **4** The essay is excellent written.
    
 For pre-training of AES, we combine rating 4 and 3 to represent good essays, view rating 1 as poor essays, and remove rating 2 to ensure that the good and poor essays could be distinguished.
 
