@@ -20,7 +20,6 @@ The Genres of We represent organization quality with three grades.
 
 &ensp;&ensp; **Character** Character refers to a style of describing personality.
    
-   
 &ensp;&ensp; **Narrative** Narrative is a style of writing whose main content is the experience of characters and the development and changes of things.
  　
   
