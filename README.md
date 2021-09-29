@@ -72,7 +72,7 @@ Run the following command to divide the data for training, development and testi
     python split_pretrain_essays.py
 ## Reference
 The dataset is released with this paper:
-
+```bibtex
     @inproceedings{song-etal-2020-multi,
         title      = "Multi-Stage Pre-training for Automated Chinese Essay Scoring",
         author     = "Song, Wei  and Zhang, Kai  and Fu, Ruiji  and Liu, Lizhen  and Liu, Ting  and Cheng, Miaomiao",
@@ -85,5 +85,5 @@ The dataset is released with this paper:
         doi = "10.18653/v1/2020.emnlp-main.546",
         pages = "6723--6733",
     }
-
+```
 
